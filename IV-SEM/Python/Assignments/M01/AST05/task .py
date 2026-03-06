@@ -13,7 +13,6 @@ def Collatz_Sequence(n: int) -> List[int]:
     
     return sequence
 
-
 if __name__ == '__main__':
     n = int(input())
     print(Collatz_Sequence(n))
